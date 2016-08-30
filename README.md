@@ -1,1 +1,3 @@
 # ComponentModel
+装饰者模式，这个模式优点在于，对已有对象进行额外扩展，而且扩展的内容和方式都是不可见，隐蔽的。
+Component是定义一个对象接口，可以给这些对象动态的添加职责。ConcreteComponnet是定义了一个具体的对象，也可以给这个对象添加一些职责，Decortor装饰抽象类，从外类扩展Component类的功能，但对于Component来说，是无需知道Decorator的存在的，至于ConcreteDecorator就是具体的装饰对象，起到给Component添加职责的功能。
